@@ -1,30 +1,9 @@
-/*Calculate a car's average consumption being provided the
- total distance traveled (in Km) and the spent fuel total 
- (in liters).
+/*Read the four values corresponding to the x and y axes of two points in the plane, p1 (x1, y1) and p2 (x2, y2) and calculate the distance between them, showing four decimal places after the comma, according to the formula:
+
+Distance = 
 
 Input
-The input file contains two values: one integer value X 
-representing the total distance (in Km) and the second one
- is a floating point number Y  representing the spent fuel
-  total, with a digit after the decimal point.
+The input file contains two lines of data. The first one contains two double values: x1 y1 and the second one also contains two double values with one digit after the decimal point: x2 y2.
 
 Output
-Present a value that represents the average consumption of 
-a car with 3 digits after the decimal point, followed by
- the message "km/l".*/
-
-
-#include<iostream>
-using namespace std;
-
-
-int main(int argc, char const *argv[])
-{
-    double a,b,c;
-    cin>>a>>b;
-    c = a/b;
-    //cout<<c<<" km/l"<<endl;
-    printf("%.3lf km/l\n",c);
-    return 0;
-}
-
+Calculate and print the distance value using the provided formula, with 4 digits after the decimal point.*/
